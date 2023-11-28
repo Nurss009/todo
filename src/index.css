@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 ;
+}
+.container {
+  width: 900px;
+  margin:0 auto ;
+}
+body {
+  background-color: beige;
+}
+
+.todo-wrapper {
+  display: flex;
+  gap: 30px;
+  margin-top: 17px;
+
+  align-items: center;
+}
+button {
+  border-radius: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.Butt {
+  margin-left: 15px;
+}
+.Input {
+  padding: 9px 16px;
+  border-radius: 10px;
+}
+.buta:hover {
+  background-color: red;
+  border: none;
+  color: white;
+}
